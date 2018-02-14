@@ -1,0 +1,12 @@
+canvas {
+    font-family: rsFont;
+}
+#load {
+    font-family: rsFont;
+    visibility: hidden;
+    height: 0;
+}
+@font-face {
+    font-family:rsFont;
+
+}

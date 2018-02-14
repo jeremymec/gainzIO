@@ -1,6 +1,10 @@
+var canvas;
+
+var StatsEnum = {"ATK":1, "STR":2, "HRT":3, "AGI":4};
+
 window.onload = function() {
-    var c = document.getElementById("Canvas");
-    var ctx = c.getContext("2d");
+    canvas = document.getElementById("Canvas");
+    var ctx = canvas.getContext("2d");
 
     var imageObj = new Image();
 
@@ -10,4 +14,10 @@ window.onload = function() {
 
     imageObj.src = 'res/statPage.png';
 
+    drawTextOnStat(StatsEnum.AGI);
 };
+
+function drawTextOnStat(stat, number){
+    var ctx = canvas.getContext("2d");
+    ctx.font = "30px Arial";
+}
