@@ -1,12 +1,16 @@
+
+
 canvas {
     font-family: rsFont;
 }
+
+
 #load {
     font-family: rsFont;
     visibility: hidden;
     height: 0;
 }
 @font-face {
-    font-family:rsFont;
-
+    font-family: rsFont;
+    src: url('res/runescape_uf.ttf');
 }
